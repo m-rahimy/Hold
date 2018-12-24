@@ -6,12 +6,12 @@ import com.kierek.game.GameRenderer;
 import com.kierek.game.GameWorld;
 import com.kierek.game.InputHandler;
 
-public class GameScreen implements Screen {
+public class MainGameScreen implements Screen {
 
     private GameWorld world;
     private GameRenderer renderer;
 
-    public GameScreen() {
+    public MainGameScreen() {
         world = new GameWorld();
         renderer = new GameRenderer(world);
 
